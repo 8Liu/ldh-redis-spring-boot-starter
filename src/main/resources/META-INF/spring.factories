@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.liudehuang.redis.config.JedisConf,\
+com.liudehuang.redis.config.JedisPoolConf,\
+com.liudehuang.redis.log.RedisLog,\
+com.liudehuang.redis.config.RedisClientBean,\
+com.liudehuang.redis.SingleRedisBuilder

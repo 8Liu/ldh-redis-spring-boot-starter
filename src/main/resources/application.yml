@@ -1,0 +1,18 @@
+ldh:
+  redis:
+    single-redis:
+      host: 127.0.0.1
+      port: 6379
+      timeout: 1000
+      password: 123456
+      database: 1
+    poolConfig:
+      time-between-eviction-runs-millis: 1000
+      test-while-idle: true
+      test-on-borrow: true
+      num-tests-per-eviction-run: 10
+      min-evictable-idle-time-millis: 5000
+      max-wait-millis: 1000
+      max-total: 200
+      max-idle: 8
+      min-idle: 1
